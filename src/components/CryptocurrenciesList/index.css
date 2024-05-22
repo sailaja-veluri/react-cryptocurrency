@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.CryptocurrienciesList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+.heading {
+  color: white;
+  font-size: 20px;
+}
+.image {
+  height: 40vh;
+  width: 100%;
+}
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #00e7ff;
+  width: 100%;
+}
+.ul-header-container {
+  background-color: #092e33;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.coinType-header {
+  font-size: 12px;
+}
+.usd-header {
+  font-size: 12px;
+}
+
+.euro-header {
+  font-size: 12px;
+  margin-left: 50px;
+}
+
+.usd-euro-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15px;
+}
